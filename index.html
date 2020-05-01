@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Profil</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      body, html{
+    height: 100%;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666666;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #282e34;
+}
+
+.fixed-nav-bar a{
+    text-transform: uppercase;
+    color: #dddddd;
+    font-size: 25px;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bgkomen{
+    position: relative;
+    opacity: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.bg1{
+    background-image: url('../img/thumbs/4.png');
+    min-height: 100%;
+}
+
+.bgkomen{
+    background-image: url('../img/thumbs/2.jpg');
+    min-height: 100%;
+}
+
+.bg1 a{
+    color: #dddddd;
+}
+
+.bagian-terang img{
+    object-fit: cover;
+    object-position: 20%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.bg2{
+    background-image: url('../img/thumbs/12c.png');
+    min-height: 400px;
+    background-position-y: -100px;
+}
+
+.bg3{
+    background-image: url('../img/thumbs/3.jpg');
+    min-height: 400px;
+    background-position-y: -100px;
+}
+
+.bg4{
+    background-image: url('../img/thumbs/haas.png');
+    min-height: 400px;
+    background-position-y: -100px;
+}
+
+.teks{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.komen{
+    text-align: left;
+    padding: 50px 80px;
+}
+
+.bagian-terang{
+    background-color: azure;
+    color: #666666;
+    text-align: center;
+}
+
+.bagian-terang ul{
+    list-style-type: none;
+}
+
+.bagian-gelep{
+    background-color: #282e34;
+    color: #dddddd;
+}
+
+.teksfoto{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.teksfoto .border{
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.teksfoto .transp{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+    </style>
+  </head>
+  <body>
+
+    <nav class="fixed-nav-bar">
+      <center>
+        <a href="index.html">Beranda</a>
+        <a href="kontak.html">Hubungi Saya</a>
+      </center>
+    </nav>
+
+    <div class="bg1">
+      <div class="teksfoto">
+        <span class="border">
+           Dennis Setiadi
+        </span>
+      </div>
+    </div>
+    
+    <section class="teks bagian-terang">
+      <img src="img/IMG_9047.jpg" class="rounded-corner-2">
+      <br><br>
+      <ul>
+        <li>Nama: Dennis Setiadi Prajoko</li>
+        <li><i>NIM: 195150207111004</i></li>
+        <li>Alamat: Kemanggisan Ilir VII F1 no 58, Palmerah, Jakarta Barat</li>
+        <li>Jurusan: Teknik Informatika</li>
+      </ul>
+    </section>
+
+    <div class="bg2">
+      <div class="teksfoto">
+        <span class="border">
+           Pengalaman Organisasi
+        </span>
+      </div>
+    </div>
+
+    <div class="teks bagian-gelep">
+      <center>
+          <table border="2px" cellspacing="0" cellpadding="8">
+				<tr>
+					<th>No.</th>
+					<th>Uraian</th>
+					<th>Tingkat</th>
+				</tr>
+				<tr>
+					<td>1.</td>
+					<td>Himpunan Mahasiswa Teknik Informatika</td>
+					<td>Universitas</td>
+				</tr>
+      </table>
+      </center>
+    </div>
+
+    <div class="bg3">
+      <div class="teksfoto">
+        <span class="border transp">
+           Riwayat Pendidikan
+        </span>
+      </div>
+    </div>
+
+    <div class="teks bagian-gelep">
+			<center>
+        <table border="2px" cellspacing="0" cellpadding="8">
+				<tr>
+					<th>No.</th>
+					<th>Sekolah</th>
+					<th>Tahun</th>
+				</tr>
+				<tr>
+					<td>1.</td>
+					<td>SDS Bhakti YKKP</td>
+					<td>2007 - 2012</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>SMPN 111 Jakarta</td>
+					<td>2013 - 2015</td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>SMA Negeri 16 Jakarta</td>
+					<td>2016 - 2019</td>
+				</tr>
+				<tr>
+					<td>4.</td>
+					<td>Universitas Brawijaya</td>
+					<td>2019 - Sekarang</td>
+				</tr>
+      </table>
+		  </center>
+    </div>
+
+    <div class="bg4">
+      <div class="teksfoto">
+        <span class="border transp">
+           Mata Kuliah Semester 1
+        </span>
+      </div>
+    </div>
+
+    <div class="teks bagian-gelep">
+      <center>
+        <table border="2px" cellspacing="0" cellpadding="8">
+          <tr>
+            <th>No.</th>
+            <th>Nama Mata Kuliah</th>
+            <th>SKS</th>
+            <th>Nilai</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Sistem Digital</td>
+            <td>3 SKS</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Matematika Komputasi</td>
+            <td>4 SKS</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Pemrograman Dasar</td>
+            <td>5 SKS</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Pengantar Ilmu Komputer</td>
+            <td>3 SKS</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Agama Islam</td>
+            <td>2 SKS</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Bahasa Indonesia</td>
+            <td>2 SKS</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </center>
+    </div>
+
+    <div class="bg1">
+      <div class="teksfoto">
+        <span class="border">
+          <a href="kontak.html">Hubungi Saya</a>
+        </span>
+      </div>
+    </div>
+
+  </body>
+</html>
